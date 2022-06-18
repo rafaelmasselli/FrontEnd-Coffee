@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo-desktop.svg" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Great Coffee</title>
+  </head>
+  <body>
+    <header class="navbar-header">
+      <nav class="navbar-items" id="navbar">
+        <figure>
+          <img src="/assets/logo-mobile.svg" class="logo-rocketSet-mobile" />
+          <img
+            src="/assets/logo-desktop.svg"
+            alt="logo rocketSet"
+            class="logo-rocketSet-desktop"
+          />
+        </figure>
+        <ul class="nav-text" id="nav-text">
+          <li>
+            <a href="/"><div class="border-linha">Home</div></a>
+          </li>
+          <li>
+            <a href="/"><div class="border-linha">Menu</div></a>
+          </li>
+          <li>
+            <a href="/"><div class="border-linha">Recompensa</div></a>
+          </li>
+          <li>
+            <a href="/"><div class="border-linha">Gift card</div></a>
+          </li>
+          <li>
+            <a href="/"><div class="border-linha">Lojas</div></a>
+          </li>
+        </ul>
+        <button class="button-header">Pegar meu café</button>
+      </nav>
+      <input type="checkbox" id="check" />
+      <label class="button-responsive" for="check" onclick="responsiveButton()">
+        <img src="/assets/menu-buguer-open.svg" id="responsive-icon-button" />
+      </label>
+    </header>
+    <h1 class="text-responsive">
+      O café que fará seu código decolar para o próximo nível.
+    </h1>
+    <div class="container-centralize-button">
+      <button class="button-header-responsive">Pegar meu café</button>
+    </div>
+    <main class="container-main" id="main-container">
+      <figure>
+        <img src="/assets/Title.png" class="Great-Code-Coffee" />
+      </figure>
+      <figure>
+        <img
+          src="./assets/rocket-coffee.png"
+          class="image-banner-coffee"
+          alt="banner de cafe"
+        />
+      </figure>
+    </main>
+    <script src="/script.js" />
+  </body>
+</html>

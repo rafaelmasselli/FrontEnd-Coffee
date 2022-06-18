@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  background-image: url("./assets/blur-2.png"), url("./assets/blur-1.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+}
+
+.navbar-header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.navbar-items {
+  margin-top: 54px;
+  display: flex;
+  width: 918px;
+
+  justify-content: space-between;
+}
+
+.nav-text {
+  display: flex;
+}
+.nav-text {
+  text-align: center;
+  display: flex;
+}
+
+li {
+  margin: 15px 20px;
+  list-style-type: none;
+  font: 400 14px "Manrope", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #8257e5;
+}
+
+.button-header {
+  width: 172px;
+  height: 37px;
+
+  margin-top: 10px;
+  border-radius: 8px;
+
+  background: transparent;
+  border: 1px solid #8257e5;
+  color: #fff;
+}
+
+.button-header-responsive {
+  width: 172px;
+  height: 37px;
+
+  margin-top: 10px;
+  border-radius: 8px;
+
+  background: transparent;
+  border: 1px solid #8257e5;
+  color: #fff;
+
+  display: none;
+}
+.text-responsive {
+  display: none;
+  color: #fff;
+  text-align: center;
+
+  font: 600 30px "Manrope", sans-serif;
+}
+
+.container-centralize-button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px 30px;
+  gap: 10px;
+}
+
+.logo-rocketSet-mobile {
+  display: none;
+}
+
+.button-header:hover,
+.button-header-responsive:hover {
+  background: #8257e5;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.container-main {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.container-center {
+  text-align: center;
+}
+
+.button-responsive {
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+
+  background: #000;
+  border: transparent;
+}
+
+.button-responsive,
+.logo-rocketSet-mobile {
+  margin: 0 20px;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  body,
+  html {
+    height: auto;
+    background: #000;
+    background-image: url("./assets/blur-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+  .button-header,
+  .logo-rocketSet-desktop {
+    display: none;
+  }
+  .button-header-responsive,
+  .button-responsive,
+  .logo-rocketSet-mobile,
+  .text-responsive {
+    display: block;
+  }
+
+  .text-responsive,
+  .button-header-responsive {
+    margin-top: 7.5rem;
+  }
+
+  .container-main {
+    position: static;
+    margin-top: 7.5rem;
+  }
+
+  .navbar-header,
+  .navbar-items {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .button-header {
+    text-align: center;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    background: #000;
+    left: -100%;
+    text-align: center;
+    transition: all 0.2s;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  li {
+    margin: 0;
+  }
+  .border-linha {
+    border: 1px solid #29292e;
+    height: 40px;
+    margin: 0;
+    text-indent: 10px;
+    line-height: 3;
+  }
+  .border-linha:hover {
+    border-left-color: #8257e5;
+    border-left-style: solid;
+    border-left-width: 4px;
+  }
+  a {
+    color: #a8a8b3;
+  }
+  .nav-text {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (max-width: 811px) {
+  .image-banner-coffee,
+  .Great-Code-Coffee {
+    max-width: 33rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .image-banner-coffee,
+  .Great-Code-Coffee {
+    max-width: 20rem;
+  }
+}
+
+@media (max-width: 321px) {
+  .image-banner-coffee,
+  .Great-Code-Coffee {
+    max-width: 17rem;
+  }
+}
