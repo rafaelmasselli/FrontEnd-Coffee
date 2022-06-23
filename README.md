@@ -4,15 +4,16 @@
 
 ## Requisitos
 
-### Para iniciar o projeto você ira precisa do <a href="https://git-scm.com/downloads">git</a>
+### Para clonar o projeto você vai precisar do <a href="https://git-scm.com/downloads">git</a>
 
-## Clonando o projeto,em qualquer terminal clone o projeto
+## 🎲 Iniciando o projeto 
 
 ```bash
+# Clonando o projeto
 git clone https://github.com/rafaelmasselli/FrontEnd-Coffee
 ```
 
-## Inicializando o projeto
+## Abrindo o projeto 
 
 > Entre na pasta do projeto
 
