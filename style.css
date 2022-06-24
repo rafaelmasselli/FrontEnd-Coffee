@@ -84,7 +84,6 @@ a:hover {
 
 .container-centralize-button {
   justify-content: center;
-  align-items: center;
   display: flex;
   padding: 10px 30px;
   gap: 10px;
@@ -152,12 +151,12 @@ a:hover {
 
   .text-responsive,
   .button-header-responsive {
-    margin-top: 7.5rem;
+    margin-top: 8.5rem;
   }
 
   .container-main {
     position: static;
-    margin-top: 7.5rem;
+    margin-top: 8.5rem;
   }
 
   .navbar-header,
